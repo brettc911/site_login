@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style/master.css">
+    <title>Login</title>
+  </head>
+  <body>
+    <h1>Login Please...fool!</h1>
+    <ul>
+      {{#errors}}
+      <li>{{msg}}</li>
+      {{/errors}}
+    </ul>
+    <form class="" action="/login/auth" method="post">
+      <input type="text" name="userName" value="">
+      <input type="text" name="password" value="">
+      <button>Login</button>
+    </form>
+  </body>
+</html>
